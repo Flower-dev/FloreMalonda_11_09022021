@@ -1,0 +1,16 @@
+.location-card {
+    height: 340px;
+    width: 340px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: red;
+
+
+}
+
+.location-card img {
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+}

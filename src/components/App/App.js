@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import {useState} from 'react';
 import {
   BrowserRouter as Router,
@@ -9,12 +10,11 @@ import {
   useParams
 } from "react-router-dom";
 
-function LocationCard(props) {
-  return <div>
-      <h1>{props.location.title}</h1>
-      <img src={props.location.pictures[0]}/>
-  </div>
-}
+// Location card 
+
+import LocationCard from '../LocationCard/LocationCard.js';
+
+
 
 export default function App() {
   
@@ -30,11 +30,13 @@ export default function App() {
 
   return (
 
-    <div className="App">
+    <div className="App-location-card">
       {locations.map((location) => <LocationCard key={location.id} location={location}/>)}
             
     </div>
   ); 
     
 }
+
+ 
 
