@@ -7,19 +7,20 @@ import reportWebVitals from './reportWebVitals';
 
 // Header & Footer
 import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 const routing = (
   <Router>
     <div>
-      {/* <Header />
-      <hr />
+      <Header />
+      {/* <hr />
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/users" component={Users} />
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch> */}
-      {/* <App /> */}
+      <App /> 
       <Footer />
     </div>
   </Router> 

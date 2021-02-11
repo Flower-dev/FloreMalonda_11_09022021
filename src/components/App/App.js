@@ -29,8 +29,10 @@ export default function App() {
         })
 
   return (
-    <div className="App-location-card">
-          {locations.map((location) => <LocationCard key={location.id} location={location}/>)}         
+    <div className="background">
+      <div className="App-location-card">
+            {locations.map((location) => <LocationCard key={location.id} location={location}/>)}         
+      </div>
     </div>
   ); 
 }

@@ -1,12 +1,5 @@
-.App-location-card {
-    display: flex;
-    flex-wrap: wrap;
-    Width: 1240px;
-    Height: 829px;
-    /*Radius: 25px;*/
-    
+.background {
     /* Background */
-
     position: absolute;
     left: 0%;
     right: 0%;
@@ -15,4 +8,14 @@
 
     background: #F7F7F7;
     border-radius: 25px;
+    Width: 1240px;
+    Height: 829px;
+    /* Radius: 25px; */
+}
+
+App-location-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
