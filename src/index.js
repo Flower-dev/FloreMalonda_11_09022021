@@ -1,15 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 
+// Header & Footer
+import Footer from './components/Footer/Footer';
+
+const routing = (
+  <Router>
+    <div>
+      {/* <Header />
+      <hr />
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/users" component={Users} />
+        <Route path="/contact" component={Contact} />
+        <Route component={Notfound} />
+      </Switch> */}
+      {/* <App /> */}
+      <Footer />
+    </div>
+  </Router> 
+)
+
+
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+  routing, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
