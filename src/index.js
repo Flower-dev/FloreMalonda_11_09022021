@@ -20,7 +20,7 @@ const routing = (
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch> */}
-      <App /> 
+      <App />
       <Footer />
     </div>
   </Router> 

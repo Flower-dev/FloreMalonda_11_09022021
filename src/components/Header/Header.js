@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './Header.css'
 
 function Header() {
   return (
@@ -8,7 +9,7 @@ function Header() {
             <NavLink exact activeClassName="active" to="/">
                 Accueil
             </NavLink>
-            <NavLink activeClassName="active" to="/contact">
+            <NavLink activeClassName="active" to="/a_propos">
                 A Propos
             </NavLink>
         </nav>
