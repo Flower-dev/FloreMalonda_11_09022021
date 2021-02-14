@@ -5,14 +5,12 @@ import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 
-// Header & Footer
+// Footer importation
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
 
 const routing = (
   <Router>
     <div>
-      <Header />
       {/* <hr />
       <Switch>
         <Route exact path="/" component={App} />
