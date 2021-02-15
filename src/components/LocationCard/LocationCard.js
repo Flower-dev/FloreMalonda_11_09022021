@@ -9,6 +9,7 @@ function LocationCard(props) {
                     <h5>{props.location.title}</h5>
                 </div>
             </div>
+
 }
 
 export default function LocationZone() {

@@ -11,13 +11,6 @@ import Footer from './components/Footer/Footer';
 const routing = (
   <Router>
     <div>
-      {/* <hr />
-      <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
-        <Route component={Notfound} />
-      </Switch> */}
       <App />
       <Footer />
     </div>

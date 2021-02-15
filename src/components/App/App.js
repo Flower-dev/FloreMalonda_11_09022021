@@ -6,7 +6,6 @@ import {
   Route,
   Link,
   useRouteMatch,
-  useParams
 } from "react-router-dom";
 
 // Location card 
@@ -24,20 +23,20 @@ export default function App() {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-            <Link to="/about">À propos</Link>
+            <Link to="/a_propos">À propos</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/topics">Topics</Link>
-          </li>
+          </li> */}
         </ul>
 
         <Switch>
-          <Route path="/about">
+          <Route path="/a_propos">
             <About />
           </Route>
-          <Route path="/topics">
+          {/* <Route path="/topics">
             <Topics />
-          </Route>
+          </Route> */}
           <Route path="/">
             <Home />
           </Route>
@@ -49,21 +48,21 @@ export default function App() {
 
 function Home() {
   return <div>
-          {/* <img src={Image/backgroundimage.png}/> */}
-          <LocationZone />
+            <h2 className="title_home">Chez vous, partout ailleurs</h2>
+            {/* <img src={Image/backgroundimage.png}/> */}
+            <Route>
+              <LocationZone />
+            </Route>
         </div>;
 }
 
-function About() {
-  return <h2>About</h2>;
-}
 
-function Topics() {
+function About() {
   let match = useRouteMatch();
 
   return (
     <div>
-      <h2>Topics</h2>
+      <h2>Bienvenue sur la page à propos</h2>
 
       <ul>
         <li>
@@ -76,13 +75,8 @@ function Topics() {
         </li>
       </ul>
 
-      {/* The Topics page has its own <Switch> with more routes
-          that build on the /topics URL path. You can think of the
-          2nd <Route> here as an "index" page for all topics, or
-          the page that is shown when no topic is selected */}
       <Switch>
         <Route path={`${match.path}/:topicId`}>
-          <Topic />
         </Route>
         <Route path={match.path}>
           <h3>Please select a topic.</h3>
@@ -92,10 +86,7 @@ function Topics() {
   );
 }
 
-function Topic() {
-  let { topicId } = useParams();
-  return <h3>Requested topic ID: {topicId}</h3>;
-}
+
 
 
 
