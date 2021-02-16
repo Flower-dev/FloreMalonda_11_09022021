@@ -1,33 +1,16 @@
 import React from 'react';
 import './LocationCard.css';
-import {useState} from 'react';
+
 
 function LocationCard(props) {
-    return <div className="location-card">
-                <img src={props.location.pictures[0]}/>
-                <h5>{props.location.title}</h5>
+    return <div className="location-card" style={{backgroundImage:`url(${props.location.pictures[0]})`}}>
+                {/* <img src={props.location.pictures[0]}/> */}
+                <h5 className="location-title">{props.location.title}</h5>
+                <div className="location-bgd"></div>
             </div>
 
 
 }
 
-export default function LocationZone() {
-    const [locations, setLocations] = useState([]);
-
-    fetch('/locations.json')
-        .then((response) => {
-            return response.json()
-        })
-        .then((data) => {
-            setLocations(data)
-        })
-
-
-    return (
-        <div className="location-card-info">
-            {locations.map((location) => <LocationCard key={location.id} location={location}/>)}
-            
-        </div>
-    );
-}
+export default LocationCard;
   

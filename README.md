@@ -10,15 +10,13 @@ Maquettes du projet disponibles en cliquant ici : https://www.figma.com/file/bAn
 
 - la Home page (
     - image en top 
-    - background
-    - position des cartes à gérer
     - ajouter des routes sur les cartes
 )
 - mise en page de la navbar (ajouter le logo)
 - ajouter logo sur le Footer
+- modifier le chevron des accordéons
 
 - à faire : 
 
 - page des locations
-- faire les collpases de la page A propos
 - CSS

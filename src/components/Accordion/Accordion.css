@@ -53,9 +53,16 @@
 
 /* STYLE TEXT */
 .accordion__text {
-    color: red;
+    color: #FF6060;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
     padding: 18px;
+}
+
+/* CONTAINER */
+
+.accordion-container {
+    margin-bottom: 20px;
+    margin-left: 208px;
 }

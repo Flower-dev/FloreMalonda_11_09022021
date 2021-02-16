@@ -1,0 +1,18 @@
+.location-card-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.background {
+    height: 2848px;
+    width: 1240px;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-left: 100px;
+
+    background: #F7F7F7;
+    border-radius: 25px;
+}
