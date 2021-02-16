@@ -10,8 +10,12 @@ import './About.css';
 function About() {
   
     return (
-    <div>
-        <h2>Bienvenue sur la page à propos</h2>
+    <div className="body">
+        <div className="background_about">
+            <div className="about_img" style={{backgroundImage:`url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg)`}}>
+            </div>
+        </div>
+
         <div className="container">
             <div className="accordion-container">
                 <Accordion

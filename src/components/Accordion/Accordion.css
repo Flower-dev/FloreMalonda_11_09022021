@@ -64,5 +64,6 @@
 
 .accordion-container {
     margin-bottom: 20px;
-    margin-left: 208px;
+    margin-left: 108px;
+    position: relative;
 }

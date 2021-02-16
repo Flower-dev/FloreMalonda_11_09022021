@@ -36,6 +36,9 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
+          <Route path="*">
+            {/* <NoMatch /> */}
+          </Route>
         </Switch>
       </div>
     </Router>
