@@ -2,57 +2,60 @@
 .accordion__section {
     display: flex;
     flex-direction: column;
-  }
+}
   
-  /* STYLE BUTTON */
-  .accordion {
+/* STYLE BUTTON */
+.accordion {
+    width: 1023px;
+    height: 47px;
+    border-radius: 5px;
     background-color: #FF6060;
-    color: #444;
+    color: white;
     cursor: pointer;
     padding: 18px;
     display: flex;
     align-items: center;
     border: none;
     outline: none;
-    /* transition: background-color 0.6s ease; */
-  }
+/* transition: background-color 0.6s ease; */
+}
   
-  /* ADD BACKGROUND COLOR */
-  .active {
-    background-color: #FF6060;
-  }
-  
-  /* STYLE CONTENT TITLE */
-  .accordion__title {
+/* STYLE CONTENT TITLE */
+.accordion__title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 14px;
     text-align: left;
-  }
-  
-  /* STYLE CHEVRON */
-  .accordion__icon {
+}
+
+/* STYLE CHEVRON */
+.accordion__icon {
     margin-left: auto;
     transition: transform 0.6s ease;
-  }
-  
-  /* ROTATION */
-  .rotate {
+}
+
+/* ROTATION */
+.rotate {
     transform: rotate(90deg);
-  }
-  
-  /* STYLE ACCORDION PANEL */
-  .accordion__content {
-    background-color: white;
+}
+
+/* STYLE ACCORDION PANEL */
+.accordion__content {
+    background-color: #F6F6F6;
     overflow: auto;
     transition: max-height 0.6s ease;
-  }
-  
-  /* STYLE TEXT */
-  .accordion__text {
+    height: 117px;
+    width: 1023px;
+    left: 0px;
+    top: 38px;
+    border-radius: 5px;
+}
+
+/* STYLE TEXT */
+.accordion__text {
+    color: red;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
     padding: 18px;
-  }
-  
+}
