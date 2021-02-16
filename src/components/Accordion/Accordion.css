@@ -1,0 +1,58 @@
+/* STYLE ACCORDION SECTION */
+.accordion__section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* STYLE BUTTON */
+  .accordion {
+    background-color: #FF6060;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    /* transition: background-color 0.6s ease; */
+  }
+  
+  /* ADD BACKGROUND COLOR */
+  .active {
+    background-color: #FF6060;
+  }
+  
+  /* STYLE CONTENT TITLE */
+  .accordion__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  /* STYLE CHEVRON */
+  .accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+  }
+  
+  /* ROTATION */
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  /* STYLE ACCORDION PANEL */
+  .accordion__content {
+    background-color: white;
+    overflow: auto;
+    transition: max-height 0.6s ease;
+  }
+  
+  /* STYLE TEXT */
+  .accordion__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+  }
+  

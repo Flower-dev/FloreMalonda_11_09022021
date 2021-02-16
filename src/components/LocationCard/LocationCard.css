@@ -1,11 +1,10 @@
 .location-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 350px;
     height: 350px;
 } 
 
 .location-card img {
     width: 100%;
+    height: 80%;
+    object-fit: cover;
 }

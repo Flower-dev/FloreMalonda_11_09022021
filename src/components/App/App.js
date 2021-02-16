@@ -8,11 +8,15 @@ import {
   useRouteMatch,
 } from "react-router-dom";
 
-// Location card 
+// LOCATION CARD
 
 import LocationZone from '../LocationCard/LocationCard';
 
+// ACCORDION
+import Accordion from "../Accordion/Accordion";
 
+
+// -------------------------------------------
 
 export default function App() {
   return (
@@ -34,9 +38,6 @@ export default function App() {
           <Route path="/a_propos">
             <About />
           </Route>
-          {/* <Route path="/topics">
-            <Topics />
-          </Route> */}
           <Route path="/">
             <Home />
           </Route>
@@ -51,7 +52,9 @@ function Home() {
             <h2 className="title_home">Chez vous, partout ailleurs</h2>
             {/* <img src={Image/backgroundimage.png}/> */}
             <Route>
-              <LocationZone />
+              <div className="background">
+                <LocationZone />
+              </div>
             </Route>
         </div>;
 }
@@ -63,8 +66,13 @@ function About() {
   return (
     <div>
       <h2>Bienvenue sur la page à propos</h2>
+      <Accordion
+        title="Fiabilité"
+        content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements,
+        et toutes les informations sont régulièrement vérifiées par nos équipes"
+      />
 
-      <ul>
+      {/* <ul>
         <li>
           <Link to={`${match.url}/components`}>Components</Link>
         </li>
@@ -81,7 +89,7 @@ function About() {
         <Route path={match.path}>
           <h3>Please select a topic.</h3>
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
