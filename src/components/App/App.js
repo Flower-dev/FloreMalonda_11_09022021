@@ -19,7 +19,7 @@ import About from '../../views/About'
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="navbar">
         <ul>
           <li>
             <Link to="/">Accueil</Link>

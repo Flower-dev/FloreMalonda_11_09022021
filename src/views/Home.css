@@ -1,8 +1,62 @@
-.location-card-info {
-    display: flex;
-    flex-wrap: wrap;
+/* BODY HOME PAGE */
+
+.body {
+    position: absolute;
+    width: 1240px;
+    height: 1095px;
+    left: 100px;
+    top: 171px;
 }
 
+/* STYLE - IMG HEADER HOME PAGE */
+
+.title_img {
+    /* position: absolute; */
+    width: 1278px;
+    height: 1933px;
+    left: 100px;
+    top: -573px;
+}
+ 
+.background_title {
+    /* Background */
+    /* position: absolute; */
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
+
+    /* margin-left: 100px; */
+    margin-bottom: 48px;
+
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+.title_home {
+    /* position: absolute;*/
+    left: 25.9%;
+    right: 25.14%;
+    top: 24.32%;
+    bottom: 69.04%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 68px;
+    /* or 142.6% */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+}
+
+/* BACKGROUND LOCATIONCARD - HOME PAGE */
 .background {
     height: 2848px;
     width: 1240px;
@@ -11,8 +65,13 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 
     background: #F7F7F7;
     border-radius: 25px;
+}
+
+.location-card-info {
+    display: flex;
+    flex-wrap: wrap;
 }
