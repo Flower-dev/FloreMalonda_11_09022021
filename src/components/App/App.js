@@ -10,8 +10,8 @@ import {
 
 // VIEWS
 
-import Home from '../../views/Home'
-import About from '../../views/About'
+import Home from '../../views/Home/Home'
+import About from '../../views/About/About'
 
 
 // -------------------------------------------
@@ -36,9 +36,7 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
-          <Route path="*">
-            {/* <NoMatch /> */}
-          </Route>
+          <Route render={() => <h1>404: page not found</h1>} />
         </Switch>
       </div>
     </Router>

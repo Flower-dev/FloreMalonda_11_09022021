@@ -1,9 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
-import LocationCard from '../components/LocationCard/LocationCard';
+import LocationCard from '../../components/LocationCard/LocationCard';
 import './Home.css'
-
-
 
 function Home() {
     const [locations, setLocations] = useState([]);
@@ -29,6 +27,7 @@ function Home() {
                         {locations.map((location) => <LocationCard key={location.id} location={location}/>)}
                     </div>
                 </div>
+                
           </div>;
 }
 
