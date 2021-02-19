@@ -4,10 +4,10 @@
 
 Maquettes du projet disponibles en cliquant ici : https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=0%3A1 
 
-** COMPÉTENCES ACQUISES :**
+**COMPÉTENCES ACQUISES :**
 
 
-** LISTES DES COMPOSANTS REALISÉS :**
+**LISTES DES COMPOSANTS REALISÉS :**
 - cartes des locations
 - tag (à réaliser)
 - accordéon
