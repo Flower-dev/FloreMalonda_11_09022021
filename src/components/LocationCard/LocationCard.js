@@ -8,23 +8,28 @@ import {
     useRouteMatch,
   } from "react-router-dom";
 
+// VIEWS
+
+import LocationPage from '../../views/LocationPage/LocationPage';
+
 
 function LocationCard(props) {
     return (
         <Router>
-            <Link to="">
-                <div className="location-card" style={{backgroundImage:`url(${props.location.pictures[0]})`}}>
-                    <h5 className="location-title">{props.location.title}</h5>
-                    <div className="location-bgd"></div>
-                </div>
-            </Link>
-
-            <Switch>
-                <Route path={`${match.path}/:id`}>
-                {/* <Topic /> */}
-                </Route>
-            </Switch>
+            <div>
+                <Link to="/location">
+                    <div className="location-card" style={{backgroundImage:`url(${props.location.pictures[0]})`}}>
+                        <h5 className="location-title">{props.location.title}</h5>
+                        <div className="location-bgd"></div>
+                    </div>
+                </Link>
+            </div>
             
+            <Switch>
+                <Route path="/location">
+                    <LocationPage/>
+                </Route>
+            </Switch>  
         </Router>
     
     )
