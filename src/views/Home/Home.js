@@ -1,5 +1,5 @@
 import React from 'react'
-import {useState} from 'react';
+import { useState } from 'react';
 import LocationCard from '../../components/LocationCard/LocationCard';
 import './Home.css'
 
