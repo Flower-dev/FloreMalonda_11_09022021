@@ -21,3 +21,16 @@ function LocationPage() {
 }
 
 export default LocationPage;
+
+/*
+DANS LA PAGE LOCATION : 
+
+Mettre de titre de la location
+Mettre un carroussel 
+les tags
+accordéons
+localisations
+notation
+nom et photo de l'hote
+
+*/
