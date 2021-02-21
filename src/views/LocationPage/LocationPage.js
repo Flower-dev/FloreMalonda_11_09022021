@@ -1,33 +1,32 @@
 import React from 'react'
-import { useState } from 'react';
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
 import './LocationPage.css';
 
 
 function LocationPage() {
-    const [locations, setLocations] = useState([]);
-
-    fetch('/locations.json')
-    .then((response) => {
-        return response.json()
-    })
-    .then((data) => {
-        setLocations(data)
-    })
 
     return (
         <div className="test">
-            <div className="accordion-container">
-                <AccordionLocation
-                title="Description"
-                content="ceci est un test pour le moment --- ajouter la partie description !!!!"
-                />
+            <h2>Titre de la location</h2>
+            <p>Localisation de la location</p>
+
+            <div className="main-container-tag">
+                
             </div>
-            <div className="accordion-container">
-                <AccordionLocation
-                title="Equipement"
-                content="ceci est un test pour le moment --- ajouter la liste des équipements !!!!"
-                />
+
+            <div className="main-container-accordion">
+                <div className="accordion-container">
+                    <AccordionLocation
+                    title="Description"
+                    content="ceci est un test pour le moment --- ajouter la partie description !!!!"
+                    />
+                </div>
+                <div className="accordion-container">
+                    <AccordionLocation
+                    title="Equipement"
+                    content="ceci est un test pour le moment --- ajouter la liste des équipements !!!!"
+                    />
+                </div>
             </div>
         </div>
     );

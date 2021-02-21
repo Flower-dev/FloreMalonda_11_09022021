@@ -12,6 +12,7 @@ import {
 
 import Home from '../../views/Home/Home'
 import About from '../../views/About/About'
+import LocationPage from '../../views/LocationPage/LocationPage'
 
 
 // -------------------------------------------
@@ -27,6 +28,9 @@ export default function App() {
           <li>
             <Link to="/a_propos">À propos</Link>
           </li>
+          <li>
+            <Link to="/location">Location</Link>
+          </li>
         </ul>
 
         <Switch>
@@ -35,6 +39,9 @@ export default function App() {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/location">
+            <LocationPage />
           </Route>
           <Route render={() => <h1>404: page not found</h1>} />
         </Switch>
