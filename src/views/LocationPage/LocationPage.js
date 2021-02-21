@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
-import './LocationPage.css'
+import './LocationPage.css';
+
 
 function LocationPage() {
     const [locations, setLocations] = useState([]);
@@ -15,8 +16,20 @@ function LocationPage() {
     })
 
     return (
-        <>
-        </>
+        <div className="test">
+            <div className="accordion-container">
+                <AccordionLocation
+                title="Description"
+                content="ceci est un test pour le moment --- ajouter la partie description !!!!"
+                />
+            </div>
+            <div className="accordion-container">
+                <AccordionLocation
+                title="Equipement"
+                content="ceci est un test pour le moment --- ajouter la liste des équipements !!!!"
+                />
+            </div>
+        </div>
     );
 }
 

@@ -15,22 +15,22 @@ import LocationPage from '../../views/LocationPage/LocationPage';
 
 function LocationCard(props) {
     return (
-        <Router>
+        // <Router>
             <div>
-                <Link to="/location">
+                {/* <Link to="/location"> */}
                     <div className="location-card" style={{backgroundImage:`url(${props.location.pictures[0]})`}}>
                         <h5 className="location-title">{props.location.title}</h5>
                         <div className="location-bgd"></div>
                     </div>
-                </Link>
+                {/* </Link> */}
             </div>
             
-            <Switch>
-                <Route path="/location">
-                    <LocationPage/>
-                </Route>
-            </Switch>  
-        </Router>
+            // {/* <Switch>
+            //     <Route path="/location">
+            //         <LocationPage/>
+            //     </Route>
+            // // </Switch>  
+        // </Router> 
     
     )
 
