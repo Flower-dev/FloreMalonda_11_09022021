@@ -1,17 +1,18 @@
 import React from 'react'
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
 import './LocationPage.css';
+import Tag from '../../components/Tag/Tag';
 
 
 function LocationPage() {
 
     return (
-        <div className="test">
-            <h2>Titre de la location</h2>
-            <p>Localisation de la location</p>
+        <div className="body_location_page">
+            <h2 className="title_locationpage">Titre de la location</h2>
+            <p className="subtitle_locationpage">Localisation de la location</p>
 
             <div className="main-container-tag">
-                
+                <Tag />
             </div>
 
             <div className="main-container-accordion">

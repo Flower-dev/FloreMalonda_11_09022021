@@ -1,0 +1,49 @@
+.title_locationpage {
+    /* Cozy loft on the Canal Saint-Martin */
+    position: absolute;
+    left: 6.94%;
+    right: 48.96%;
+    top: 55.96%;
+    bottom: 39.06%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 142.6%;
+    /* or 51px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+}
+
+.subtitle_locationpage {
+    /* Paris, Île-de-France */
+
+    position: absolute;
+    left: 6.94%;
+    right: 80.83%;
+    top: 60.94%;
+    bottom: 36.52%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* identical to box height, or 26px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+
+}
+
+
+.main-container-accordion {
+    display: flex;
+    flex-direction: row;
+}
