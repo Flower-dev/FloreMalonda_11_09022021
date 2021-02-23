@@ -1,16 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Tag.css';
 
 
-export default function Tag ({ tag }) {
+export default function Tag (props) {
     return (
         <div className="tag">
-            <p>{tag}</p>
+            <p>{props.location.tags}</p>
         </div>
     )
 }
 
-Tag.propTypes = {
-    tag: PropTypes.string.isRequired,
-}

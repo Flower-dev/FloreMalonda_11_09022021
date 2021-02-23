@@ -2,9 +2,19 @@ import React from 'react'
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
 import './LocationPage.css';
 import Tag from '../../components/Tag/Tag';
+import { useState } from 'react';
 
 
 function LocationPage() {
+    const [locations, setLocations] = useState([]);
+
+    fetch('/locations.json')
+    .then((response) => {
+        return response.json()
+    })
+    .then((data) => {
+        setLocations(data)
+    })
 
     return (
         <div className="body_location_page">
@@ -12,7 +22,7 @@ function LocationPage() {
             <p className="subtitle_locationpage">Localisation de la location</p>
 
             <div className="main-container-tag">
-                <Tag />
+                {locations.map((location) => <Tag key={location.id} location={tags}/>)}
             </div>
 
             <div className="main-container-accordion">
