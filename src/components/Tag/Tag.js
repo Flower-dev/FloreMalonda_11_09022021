@@ -2,11 +2,13 @@ import React from 'react';
 import './Tag.css';
 
 
-export default function Tag (props) {
+function Tag(props) {
     return (
         <div className="tag">
-            <p>{props.location.tags}</p>
+            <p>{props.content}</p>
         </div>
     )
 }
+
+export default Tag;
 

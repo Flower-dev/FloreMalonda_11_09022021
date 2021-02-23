@@ -34,8 +34,11 @@ export default function App() {
           <Route path="/a_propos">
             <About />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/locations/:id">
+            <LocationPage />
           </Route>
           <Route render={() => <h1>404: page not found</h1>} />
         </Switch>

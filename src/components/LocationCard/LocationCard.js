@@ -15,9 +15,9 @@ import LocationPage from '../../views/LocationPage/LocationPage';
 
 function LocationCard(props) {
     return (
-        <Router>
+        <>
             <div>
-                <Link to="/location">
+                <Link to={"/locations/"+props.location.id}>
                     <div className="location-card" style={{backgroundImage:`url(${props.location.pictures[0]})`}}>
                         <h5 className="location-title">{props.location.title}</h5>
                         <div className="location-bgd"></div>
@@ -25,12 +25,12 @@ function LocationCard(props) {
                  </Link>
             </div>
             
-            <Switch>
-                <Route path="/location">
+            {/* <Switch>
+                <Route exact path={"/locations/"+props.location.id}>
                     <LocationPage/>
                 </Route>
-            </Switch>  
-        </Router> 
+            </Switch>   */}
+        </> 
     
     )
 
