@@ -1,5 +1,6 @@
 import React from 'react'
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
+import Avatar from '../../components/Avatar/Avatar';
 import './LocationPage.css';
 import Tag from '../../components/Tag/Tag';
 import { useState, useEffect } from 'react';
@@ -30,9 +31,15 @@ function LocationPage() {
     
     return (
         <div className="body_location_page">
-            <h2 className="title_locationpage">{location.title}</h2>
-            <p className="subtitle_locationpage">{location.location}</p>
-
+            <div className="location_header">
+                <div>
+                    <h2 className="title_locationpage">{location.title}</h2>
+                    <p className="subtitle_locationpage">{location.location}</p>
+                </div>
+                <div>
+                    {/* <Avatar /> */}
+                </div>
+            </div>
             <div className="main-container-tag">
                 {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
             </div>

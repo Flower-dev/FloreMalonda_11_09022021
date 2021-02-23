@@ -23,3 +23,46 @@
 
     color: #FF6060;
 }
+
+.nomatch h1 {
+    /* 404 */
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 288px;
+    line-height: 142.6%;
+    /* or 411px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF6060;
+}
+
+.nomatch p {
+    /* Oups! La page que vous demandez n'existe pas. */
+
+    left: 20.49%;
+    right: 18.96%;
+    top: 59.18%;
+    bottom: 35.84%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 142.6%;
+    /* or 51px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+}
