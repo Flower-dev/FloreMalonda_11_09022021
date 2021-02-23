@@ -1,13 +1,20 @@
-.tag {
-    /* position: absolute; */
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
+.tag { 
     background: #FF6060;
     border-radius: 10px;
-    height: 25px;
     width: 115px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    /* line-height: 142.6%; */
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
 
+.tag-content {
+    margin-top: 5px;
 }

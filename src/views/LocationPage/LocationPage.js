@@ -30,8 +30,8 @@ function LocationPage() {
     
     return (
         <div className="body_location_page">
-            <h2 className="title_locationpage">Titre de la location</h2>
-            <p className="subtitle_locationpage">Localisation de la location</p>
+            <h2 className="title_locationpage">{location.title}</h2>
+            <p className="subtitle_locationpage">{location.location}</p>
 
             <div className="main-container-tag">
                 {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}

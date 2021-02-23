@@ -11,8 +11,9 @@ function About() {
   
     return (
     <div className="body">
-        <div className="background_about">
-            <div className="about_img" style={{backgroundImage:`url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg)`}}>
+        <div className="background_title">
+            <div className="title_img">
+                <img src="aboutbackgroundimage.png" alt="bgdimg"/>
             </div>
         </div>
 

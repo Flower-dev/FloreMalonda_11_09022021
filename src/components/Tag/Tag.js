@@ -5,7 +5,7 @@ import './Tag.css';
 function Tag(props) {
     return (
         <div className="tag">
-            <p>{props.content}</p>
+            <p className="tag-content">{props.content}</p>
         </div>
     )
 }
