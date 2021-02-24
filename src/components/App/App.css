@@ -1,12 +1,26 @@
-.navbar li {
+/* .navbar li {
     text-decoration: none;
     display: flex;
+    flex-direction: row;
     align-items: flex-end;
     text-align: right;
     text-decoration-line: underline;
-}
 
-.navbar link {
+    left: 75.08%;
+    right: 13.95%;
+    top: 25%;
+    bottom: 25%;
+
+} */
+
+ .nav {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+
     left: 75.08%;
     right: 13.95%;
     top: 25%;
@@ -15,14 +29,13 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 142.6%;
     /* or 34px */
 
-    
-
     color: #FF6060;
 }
+
 
 .nomatch h1 {
     /* 404 */
@@ -44,6 +57,7 @@
     text-align: center;
 
     color: #FF6060;
+    margin-left: 432px;
 }
 
 .nomatch p {
@@ -65,4 +79,7 @@
     align-items: flex-end;
 
     color: #FF6060;
+
+    margin-left: 295px;
+    margin-top: 50px;
 }

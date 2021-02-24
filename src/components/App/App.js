@@ -23,10 +23,10 @@ export default function App() {
       <div className="navbar">
         <ul>
           <li>
-            <Link to="/">Accueil</Link>
+            <Link className="nav" to="/">Accueil</Link>
           </li>
           <li>
-            <Link to="/a_propos">À propos</Link>
+            <Link className="nav" to="/a_propos">À propos</Link>
           </li>    
         </ul>
 
