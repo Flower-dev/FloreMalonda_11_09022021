@@ -1,15 +1,20 @@
 import React from 'react'
-import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
-import Avatar from '../../components/Avatar/Avatar';
-import './LocationPage.css';
-import Tag from '../../components/Tag/Tag';
 import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 
+// ------- COMPONENTS -------------
+import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
+// import Avatar from '../../components/Avatar/Avatar';
+import Tag from '../../components/Tag/Tag';
+import Slideshow from '../../components/Slideshow/Slideshow';
 
+// -------- IMPORT STYLE -----------------
+import './LocationPage.css';
+
+// ----------------------------------------------------
 
 function LocationPage() {
-    const [location, setLocation] = useState({tags:[], equipments:[]});
+    const [location, setLocation] = useState({tags:[], equipments:[], pictures:[]});
 
     let { id } = useParams();
     
@@ -31,6 +36,9 @@ function LocationPage() {
     
     return (
         <div className="body_location_page">
+            <div>
+                {location.pictures.map((picture) => <Slideshow img={picture} key={picture}/>)}
+            </div>
             <div className="location_header">
                 <div>
                     <h2 className="title_locationpage">{location.title}</h2>
