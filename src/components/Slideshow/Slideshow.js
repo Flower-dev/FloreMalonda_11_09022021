@@ -6,7 +6,7 @@ function Slideshow(props){
         <section className="slideshow">
             <img src={props.img}></img>
         </section>
-    )
+    );
 }
 
 export default Slideshow;

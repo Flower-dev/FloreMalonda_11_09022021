@@ -5,6 +5,13 @@
     top: 171px;
 }
 
+.location_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main-container-tag {
     display: flex;
     flex-direction: row;

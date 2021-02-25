@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 // ------- COMPONENTS -------------
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
-// import Avatar from '../../components/Avatar/Avatar';
+import Avatar from '../../components/Avatar/Avatar';
 import Tag from '../../components/Tag/Tag';
 import Slideshow from '../../components/Slideshow/Slideshow';
 
@@ -45,7 +45,7 @@ function LocationPage() {
                     <p className="subtitle_locationpage">{location.location}</p>
                 </div>
                 <div>
-                    {/* <Avatar /> */}
+                    <Avatar />
                 </div>
             </div>
             <div className="main-container-tag">
