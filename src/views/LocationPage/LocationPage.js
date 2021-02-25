@@ -14,7 +14,7 @@ import './LocationPage.css';
 // ----------------------------------------------------
 
 function LocationPage() {
-    const [location, setLocation] = useState({tags:[], equipments:[], pictures:[]});
+    const [location, setLocation] = useState({tags:[], equipments:[], pictures:[], host:{'name':'', 'picture':''}});
 
     let { id } = useParams();
     
@@ -45,7 +45,9 @@ function LocationPage() {
                     <p className="subtitle_locationpage">{location.location}</p>
                 </div>
                 <div>
-                    <Avatar />
+                
+                <Avatar name={location.host.name} picture={location.host.picture}/>
+                   
                 </div>
             </div>
             <div className="main-container-tag">

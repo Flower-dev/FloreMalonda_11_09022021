@@ -5,10 +5,10 @@ function Avatar(props){
     return (
         <div className="avatar-container">
             <div className="avatar-name">
-                <p>{props.hostname}</p>
+                <p>{props.name}</p>
             </div>
             <div className="avatar-main">
-                <img src={props.hostimg}></img>
+                <img src={props.picture}></img>
             </div>
         </div>
         
