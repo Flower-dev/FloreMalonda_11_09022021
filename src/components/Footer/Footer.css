@@ -3,16 +3,22 @@ position: relative;
 width: 1440px;
 height: 209px;
 background: #000000; 
-Top: 4333px;
+Top: 3333px;
+}
+
+.footer img {
+    margin-top: 66px;
+    height: 39.44px;
+    width: 122px;
+    margin-left: 659px;
 }
 
 .footer p {
 /* © 2020 Kasa. All rights reserved */
-position: absolute;
-left: 32.15%;
+/* margin-left: 32.15%;
 right: 32.22%;
 top: 64.11%;
-bottom: 13.88%;
+bottom: 13.88%; */
 
 font-family: Montserrat;
 font-style: normal;
@@ -20,8 +26,7 @@ font-weight: normal;
 font-size: 24px;
 line-height: 142.6%;
 /* or 34px */
-display: flex;
-align-items: flex-end;
+
 text-align: center;
 
 color: #FFFFFF;
