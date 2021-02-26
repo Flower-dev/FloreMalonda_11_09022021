@@ -41,17 +41,17 @@ function LocationPage() {
             <div>
                 {location.pictures.map((picture) => <Slideshow img={picture} key={picture}/>)}
             </div>
+
             <div className="location_header">
                 <div>
                     <h2 className="title_locationpage">{location.title}</h2>
                     <p className="subtitle_locationpage">{location.location}</p>
                 </div>
                 <div>
-                
-                <Avatar name={location.host.name} picture={location.host.picture}/>
-                   
+                    <Avatar name={location.host.name} picture={location.host.picture}/>
                 </div>
             </div>
+
             <div className="main-container-tag">
                 {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
             </div>
@@ -66,10 +66,11 @@ function LocationPage() {
                 <div className="accordion-container">
                     <AccordionLocation
                     title="Equipement"
-                    content={location.equipments.join(',')}
+                    content={<li>{location.equipments.join(',')}</li>}
                     />
                 </div>
             </div>
+            
         </div>
     );
 }

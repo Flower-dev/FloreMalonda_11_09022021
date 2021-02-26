@@ -3,6 +3,7 @@
     width: 1240px;
     height: 1095px;
     top: 171px;
+    width: 100%;
 }
 
 .location_header {
@@ -10,6 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-right: 100px;
 }
 
 .main-container-tag {
@@ -22,7 +24,14 @@
 .main-container-accordion {
     display: flex;
     flex-direction: row; 
+    margin-right: 108px;
 }
+
+.accordion-container {
+    margin-right: -38px;
+}
+
+/* TITLE PAGE - LOCATION NAME*/
 
 .title_locationpage {
     left: 6.94%;
@@ -45,6 +54,8 @@
     margin-left: 108px;
 }
 
+/* SUBTITLE PAGE - LOCATION LOCALISATION*/
+
 .subtitle_locationpage {
     /* left: 6.94%;
     right: 80.83%;
@@ -54,7 +65,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 142.6%;
     /* identical to box height, or 26px */
 

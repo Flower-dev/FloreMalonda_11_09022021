@@ -1,24 +1,22 @@
-/* .navbar li {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    text-align: right;
-    text-decoration-line: underline;
-
-    left: 75.08%;
-    right: 13.95%;
-    top: 25%;
-    bottom: 25%;
-
-} */
-
+/* GENERAL */
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
+
+/* LOGO */
+.logo {
+    margin-left: 108px;
+}
+
+.logo img {
+    width: 170px;
+}
+
+/* MENU */
 
  .nav {
     text-decoration: none;
@@ -27,11 +25,6 @@
     align-items: flex-end;
     text-align: right;
     text-decoration-line: underline;
-
-    left: 75.08%;
-    right: 13.95%;
-    top: 25%;
-    bottom: 25%;
 
     font-family: Montserrat;
     font-style: normal;
@@ -43,6 +36,7 @@
     color: #FF6060;
 }
 
+/* PART 404 */
 
 .nomatch h1 {
     /* 404 */
