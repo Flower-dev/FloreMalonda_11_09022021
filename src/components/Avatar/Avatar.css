@@ -1,3 +1,10 @@
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .avatar-main img {
     width: 64px;
     height: 64px;
@@ -7,7 +14,24 @@
     background: #C4C4C4;
 }
 
-.avatar-container {
+.avatar-name p {
+    width: 93px;
+    height: 52px;
+    left: 1170px;
+    top: 573px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 142.6%;
+    /* or 26px */
+
     display: flex;
-    flex-direction: row;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #FF6060;
+    margin-right: 10px;
 }
+

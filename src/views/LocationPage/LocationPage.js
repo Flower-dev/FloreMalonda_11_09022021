@@ -3,12 +3,14 @@ import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 
 // ------- COMPONENTS -------------
+
 import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
 import Avatar from '../../components/Avatar/Avatar';
 import Tag from '../../components/Tag/Tag';
 import Slideshow from '../../components/Slideshow/Slideshow';
 
 // -------- IMPORT STYLE -----------------
+
 import './LocationPage.css';
 
 // ----------------------------------------------------
