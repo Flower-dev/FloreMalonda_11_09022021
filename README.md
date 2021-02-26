@@ -5,11 +5,14 @@
 Maquettes du projet disponibles en cliquant ici : https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=0%3A1 
 
 **COMPÉTENCES ACQUISES :**
+- apprendre React
+- apprendre React Router
+- travailler avec une DB
 
 
 **LISTES DES COMPOSANTS REALISÉS :**
 - cartes des locations
-- tag (à réaliser)
+- tag 
 - accordéon
 - caroussel (à réaliser)
 - footer
@@ -19,14 +22,15 @@ Maquettes du projet disponibles en cliquant ici : https://www.figma.com/file/bAn
 - A terminer :
 
 - la Home page (
-    - image en top 
-    - ajouter des routes sur les cartes
+    - supprimer la mise en page des LINK des cartes
+    - caroussel des pages de location
+    - ajouter les stars
 )
-- mise en page de la navbar (ajouter le logo)
-- ajouter logo sur le Footer
+- mise en page de la navbar 
 - modifier le chevron des accordéons
 
 - à faire : 
 
 - page des locations
 - CSS
+- gerer la partie responsive de l'application
