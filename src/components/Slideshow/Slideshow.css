@@ -5,3 +5,15 @@
     object-fit: cover;
     margin-left: 108px;
 }
+
+@media (max-width: 800px) {
+    .slideshow img {
+        height: 255px;
+        width: 335px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+        margin-left: 20px;
+    } 
+}
+

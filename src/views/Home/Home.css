@@ -52,7 +52,7 @@
     left: 20%;
     right: 20%;
     top: 3%;
-     color: #FFFFFF; 
+    color: #FFFFFF; 
 }
 
 /* BACKGROUND LOCATIONCARD - HOME PAGE */
@@ -73,4 +73,55 @@
 .location-card-info {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+@media (max-width: 800px) {
+
+    .body {
+        position: absolute;
+        width: 350px;
+        height: 100%;
+    }
+
+    .background_title {
+        width: 335px;
+        height: 111px;
+        left: 20px;
+        top: 83px;
+        border-radius: 10px;
+    }
+
+    .title_img {
+        /* position: absolute; */
+        width: 350px;
+    }
+    
+    .title_img img{
+        border-radius: 10px;
+        position: absolute;
+        width: 335px;
+        height: 111px;
+    }
+
+    .title_home {
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 142.6%;
+        margin-left: -220px;
+        margin-bottom: 110px;
+    }
+
+    .background {
+        height: 100%;
+        width: 350px;
+        /* margin-left: 100px; */
+        background: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }

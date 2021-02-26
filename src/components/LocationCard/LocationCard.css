@@ -32,3 +32,19 @@
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
+
+@media (max-width: 800px) {
+    .location-card {
+        height: 255px;
+        width: 335px;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-top: 48px;
+        margin-left: 48px;
+        border-radius: 10px;
+    }  
+}

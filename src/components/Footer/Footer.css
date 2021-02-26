@@ -35,7 +35,15 @@ color: #FFFFFF;
 @media (max-width: 800px) {
     .footer {
         position: relative;
-        width: 100%;
-        background: #000000;
+        width: 375px;
+        height: 209px;  
+        Top: 6333px;      
     }
+
+    .footer img {
+        margin-top: 40px;
+        height: 39.44px;
+        width: 100px;
+    }
+
 }
