@@ -14,6 +14,15 @@
     margin-right: 100px;
 }
 
+.location_subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
 .main-container-tag {
     display: flex;
     flex-direction: row;

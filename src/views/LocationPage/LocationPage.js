@@ -12,6 +12,7 @@ import Slideshow from '../../components/Slideshow/Slideshow';
 // -------- IMPORT STYLE -----------------
 
 import './LocationPage.css';
+import Stars from '../../components/Stars/Stars';
 
 // ----------------------------------------------------
 
@@ -52,11 +53,14 @@ function LocationPage() {
                 </div>
             </div>
 
-            <div className="main-container-tag">
-                {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
+            <div className="location_subheader">
+                <div className="main-container-tag">
+                    {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
+                </div>
+                <div className="main-container-stars">
+                    <Stars>{location.rating}</Stars>
+                </div>
             </div>
-
-            {/* NE PAS OUBLIER DE RAJOUTER LES ETOILES DE NOTATION */}
 
             <div className="main-container-accordion">
                 <div className="accordion-container">
@@ -84,15 +88,3 @@ function LocationPage() {
 
 export default LocationPage;
 
-/*
-DANS LA PAGE LOCATION : 
-
-Mettre de titre de la location
-Mettre un carroussel 
-les tags
-accordéons
-localisations
-notation
-nom et photo de l'hote
-
-*/
