@@ -56,18 +56,25 @@ function LocationPage() {
                 {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
             </div>
 
+            {/* NE PAS OUBLIER DE RAJOUTER LES ETOILES DE NOTATION */}
+
             <div className="main-container-accordion">
                 <div className="accordion-container">
                     <AccordionLocation
-                    title="Description"
-                    content={location.description}
+                        title="Description"
+                        content={location.description}
                     />
                 </div>
                 <div className="accordion-container">
                     <AccordionLocation
-                    title="Equipement"
-                    content={<li>{location.equipments.join(',')}</li>}
+                        title="Equipement"
+                        content={
+                            <ul>
+                                {location.equipments.map((equipment) => <li>{equipment}</li>)}
+                            </ul>
+                        }
                     />
+
                 </div>
             </div>
             
