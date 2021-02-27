@@ -33,7 +33,12 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
-@media (max-width: 800px) {
+.linklocation {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+@media (max-width: 375px) {
     .location-card {
         height: 255px;
         width: 335px;

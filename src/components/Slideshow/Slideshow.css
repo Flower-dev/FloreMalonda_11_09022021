@@ -6,7 +6,7 @@
     margin-left: 108px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     .slideshow img {
         height: 255px;
         width: 335px;

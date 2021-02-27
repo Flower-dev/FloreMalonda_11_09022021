@@ -1,5 +1,6 @@
 /* GENERAL */
 .navbar {
+    margin-top: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,22 +19,32 @@
 
 /* MENU */
 
- .nav {
-    text-decoration: none;
+.list-menu {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+}
+
+.navli {
+    margin-right: 70px;
     text-align: right;
-    text-decoration-line: underline;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 142.6%;
     /* or 34px */
+}
 
+.navli :active {
+    text-decoration-line: underline;
     color: #FF6060;
+}
+
+.nav {
+    color: #FF6060;
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 /* PART 404 */
