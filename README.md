@@ -19,18 +19,14 @@ Maquettes du projet disponibles en cliquant ici : https://www.figma.com/file/bAn
 
 
 **TO DO LIST :** 
-- A terminer :
+- *A terminer :*
 
 - la Home page (
-    - supprimer la mise en page des LINK des cartes
-    - caroussel des pages de location
-    - ajouter les stars
+    - caroussel des pages de location (en cours)
+    - ajouter les stars (en cours)
 )
-- mise en page de la navbar 
 - modifier le chevron des accordéons
 
-- à faire : 
+- *A faire :*
 
-- page des locations
-- CSS
 - gerer la partie responsive de l'application
