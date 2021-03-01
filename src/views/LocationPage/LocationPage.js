@@ -39,7 +39,7 @@ function LocationPage() {
     
     return (
         <div className="body_location_page">
-            <div>
+            <div className="slideshow_location">
                 {location.pictures.map((picture) => <Slideshow img={picture} key={picture}/>)}
             </div>
 

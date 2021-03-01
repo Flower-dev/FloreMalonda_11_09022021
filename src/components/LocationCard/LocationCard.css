@@ -38,18 +38,4 @@
     text-decoration-line: none;
 }
 
-@media (max-width: 375px) {
-    .location-card {
-        height: 255px;
-        width: 335px;
-        border-radius: 10px;
-        display: flex;
-        align-items: flex-end;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        margin-top: 48px;
-        margin-left: 48px;
-        border-radius: 10px;
-    }  
-}
+

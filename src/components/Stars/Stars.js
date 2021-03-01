@@ -3,7 +3,7 @@ import './Stars.css';
 
 function Stars(props) {
     return (
-        <div>
+        <div className="stars">
             <img src="../stars.png" alt="stars">{props.rating}</img>
         </div>
     )

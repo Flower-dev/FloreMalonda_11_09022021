@@ -76,7 +76,7 @@
 }
 
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
 
     .body {
         position: absolute;
@@ -93,7 +93,6 @@
     }
 
     .title_img {
-        /* position: absolute; */
         width: 350px;
     }
     
@@ -118,10 +117,9 @@
     .background {
         height: 100%;
         width: 350px;
-        /* margin-left: 100px; */
         background: none;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-}
+} */

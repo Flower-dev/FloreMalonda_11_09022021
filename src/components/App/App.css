@@ -1,6 +1,6 @@
 /* GENERAL */
 .navbar {
-    margin-top: 54px;
+    margin-top: -54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

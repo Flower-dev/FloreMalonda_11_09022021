@@ -21,9 +21,9 @@ export default function App() {
     <Router>
       <div className="navbar">
         <div className="logo">
-          <Link className="nav" to="/">
+          {/* <Link className="nav" to="/"> */}
             <img src="../logoapplication.png" alt="logo application"/>
-          </Link>
+          {/* </Link> */}
         </div>
         <div className="list-menu">
           <div className="navli">
