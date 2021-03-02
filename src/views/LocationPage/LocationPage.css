@@ -1,9 +1,12 @@
-.body_location_page {
-    position: absolute;
-    width: 1240px;
-    height: 1095px;
-    top: 171px;
-    width: 100%;
+.slideshow_location {
+    margin-top: 35px;
+}
+
+.slideshow_location img{
+    border-radius: 30px;
+    width: 900px;
+    height: 415px;
+    object-fit: cover;
 }
 
 .location_header {
@@ -47,42 +50,28 @@
     right: 48.96%;
     top: 55.96%;
     bottom: 39.06%;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 142.6%;
-    /* or 51px */
-
     display: flex;
     align-items: flex-end;
-
     color: #FF6060;
-
     margin-left: 108px;
 }
 
 /* SUBTITLE PAGE - LOCATION LOCALISATION*/
 
 .subtitle_locationpage {
-    /* left: 6.94%;
-    right: 80.83%;
-    top: 60.94%;
-    bottom: 36.52%; */
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 142.6%;
-    /* identical to box height, or 26px */
-
     display: flex;
     align-items: flex-end;
-
     color: #FF6060;
-
     margin-left: 108px;
     margin-top: -25px;
 }

@@ -11,10 +11,11 @@
 
 /* LOGO */
 
-.logo img {
+.nav img {
     width: 250px;
     margin-left: 108px;
     position: absolute;
+    top: 20px;
 }
 
 /* MENU */

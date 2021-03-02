@@ -22,7 +22,6 @@ function LocationPage() {
     let { id } = useParams();
     
     useEffect (function (){
-        
         fetch('/locations.json')
         .then((response) => {
             return response.json()
@@ -40,8 +39,7 @@ function LocationPage() {
     return (
         <div className="body_location_page">
             <div className="slideshow_location">
-                <Slideshow img={location.pictures} />
-                {/* {location.pictures.map((picture) => <Slideshow img={picture} key={picture}/>)} */}
+                <Slideshow img={location.pictures}/>
             </div>
 
             <div className="location_header">

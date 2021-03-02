@@ -1,25 +1,6 @@
-/* img {
-    width: 1240px;
-    height: 415px;
-    border-radius: 25px;
-    object-fit: cover;
-    margin-left: 108px;
-} */
-
-/* @media (max-width: 375px) {
-    .slideshow img {
-        height: 255px;
-        width: 335px;
-        left: 0px;
-        top: 0px;
-        border-radius: 10px;
-        margin-left: 20px;
-    } 
-} */
-
 .slideshow {
-    /* overflow: hidden; */
-    width: 500px;
+    /* overflow: hidden; */    
+    width: 900px;
 }
 
 .slideshow-container {
