@@ -13,7 +13,7 @@ function About() {
     <div className="body">
         <div className="background_title">
             <div className="title_img">
-                <img src="aboutbackgroundimage.png" alt="bgdimg"/>
+                <img src="../aboutbackgroundimage.png" alt="bgdimg"/>
             </div>
         </div>
 

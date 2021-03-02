@@ -1,6 +1,7 @@
 /* GENERAL */
 .navbar {
-    margin-top: -54px;
+
+    margin-top: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,12 +10,11 @@
 }
 
 /* LOGO */
-.logo {
-    margin-left: 108px;
-}
 
 .logo img {
-    width: 170px;
+    width: 250px;
+    margin-left: 108px;
+    position: absolute;
 }
 
 /* MENU */
@@ -27,7 +27,6 @@
 .navli {
     margin-right: 70px;
     text-align: right;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;

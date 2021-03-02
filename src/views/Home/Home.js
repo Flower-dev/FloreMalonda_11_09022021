@@ -17,7 +17,7 @@ function Home() {
     return <div className="body">
                 <div className="background_title">
                     <div className="title_img">
-                        <img src="homebackgroundimg.png" alt="bgdimg"/>
+                        <img src="../homebackgroundimg.png" alt="bgdimg"/>
                         <h2 className="title_home">Chez vous, partout et ailleurs</h2>
                     </div>
                 </div>
