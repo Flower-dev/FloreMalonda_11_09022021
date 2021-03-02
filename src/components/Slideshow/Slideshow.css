@@ -1,12 +1,12 @@
-img {
+/* img {
     width: 1240px;
     height: 415px;
     border-radius: 25px;
     object-fit: cover;
     margin-left: 108px;
-}
+} */
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     .slideshow img {
         height: 255px;
         width: 335px;
@@ -15,5 +15,13 @@ img {
         border-radius: 10px;
         margin-left: 20px;
     } 
+} */
+
+.slideshow {
+    /* overflow: hidden; */
+    width: 500px;
 }
 
+.slideshow-container {
+    display: flex; 
+}

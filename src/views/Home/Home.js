@@ -20,6 +20,7 @@ function Home() {
                         <img src="../homebackgroundimg.png" alt="bgdimg"/>
                         <h2 className="title_home">Chez vous, partout et ailleurs</h2>
                     </div>
+                    <div className="bgd"></div>
                 </div>
                 
             
