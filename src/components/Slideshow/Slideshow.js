@@ -8,9 +8,9 @@ function Slideshow(props){
             <div className="slideshow-container">
             {props.img.map((picture) => < img src={picture} key={picture}/>)}
             </div>
-            <div className="chevronslideshow-container">
+            {/* <div className="chevronslideshow-container">
                 <ChevronSlideshow/>
-            </div>
+            </div> */}
         </div>
     );
 }

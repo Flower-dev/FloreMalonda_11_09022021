@@ -95,3 +95,20 @@
     margin-left: 295px;
     margin-top: 50px;
 }
+
+.backhome {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-left: 40.14%;
+    margin-top: 8%;
+    color: #FF6060;
+
+}

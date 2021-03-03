@@ -1,6 +1,6 @@
 .slideshow {
-    /* overflow: hidden; */    
-    width: 900px;
+    overflow: hidden;    
+    width: 100%;
 }
 
 .slideshow-container {
