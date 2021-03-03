@@ -38,4 +38,12 @@
     text-decoration-line: none;
 }
 
+@media (max-width: 375px) {
+    .location-card {
+        width: 335px;
+        height: 250px;
+    }
+} 
+
+
 

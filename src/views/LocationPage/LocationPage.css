@@ -77,3 +77,32 @@
 }
 
 
+@media (max-width: 375px) {
+/* TITLE PAGE - LOCATION NAME*/
+
+    .location_header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .title_locationpage {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .subtitle_locationpage {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    
+   
+
+    .main-container-accordion {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        margin-right: 20px;
+    }
+}
+

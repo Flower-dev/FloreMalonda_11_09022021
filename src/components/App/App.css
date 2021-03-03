@@ -1,12 +1,11 @@
 /* GENERAL */
 .navbar {
-
     margin-top: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 1350px;
 }
 
 /* LOGO */
@@ -111,4 +110,21 @@
     margin-top: 8%;
     color: #FF6060;
 
+}
+
+@media (max-width: 375px) {
+
+    .nomatch h1 {
+        /* 404 */
+        font-size: 96px;
+    }
+
+    .nomatch p {
+        /* Oups! La page que vous demandez n'existe pas. */
+        font-size: 18px;
+    }
+
+    .backhome {
+        font-size: 14px;
+    }
 }

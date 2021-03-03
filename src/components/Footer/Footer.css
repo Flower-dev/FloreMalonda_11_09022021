@@ -23,3 +23,17 @@ text-align: center;
 color: #FFFFFF;
 }
 
+
+@media (max-width: 375px) {
+    .footer {
+        width: 375px;
+        height: 209px;
+    }  
+
+    .footer img {
+        height: 39.44px;
+        width: 50px;
+        margin-top: 100px;
+    }
+}
+
