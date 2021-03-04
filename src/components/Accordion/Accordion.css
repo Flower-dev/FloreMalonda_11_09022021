@@ -90,6 +90,7 @@
     }
 
     .accordion-container {
-        margin-left:-108px;
+        margin-top: 20px;
+        margin-left:-2px;
     }
 }

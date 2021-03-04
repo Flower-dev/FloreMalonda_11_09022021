@@ -131,7 +131,7 @@
     .list-menu {
         margin-top: -20px;
         margin-left: 50px;
-        margin-right: -40px;
+        margin-right: -10px;
     }
 
 
@@ -139,14 +139,18 @@
     .nomatch h1 {
         /* 404 */
         font-size: 96px;
+        margin-left: 100px;
+        text-align: center;
     }
 
     .nomatch p {
         /* Oups! La page que vous demandez n'existe pas. */
         font-size: 18px;
+        margin-left: 85px;
     }
 
     .backhome {
         font-size: 14px;
+        margin-left: 85px;
     }
 }
