@@ -37,3 +37,10 @@
     opacity: 0.3;
     border-radius: 25px;
 }
+
+@media (max-width: 375px) {
+
+    .body {
+        width: 380px;
+    }
+}
