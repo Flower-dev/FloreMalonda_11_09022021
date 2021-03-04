@@ -1,5 +1,4 @@
 /* STYLE - IMG HEADER HOME PAGE */
-
 .title_img img {
     /* position: relative;  */
     z-index: -1;
@@ -69,7 +68,7 @@
 
 @media (max-width: 375px) {
 
-    /* .body_home {
+    /* .body {
         width: 380px;
     } */
 
