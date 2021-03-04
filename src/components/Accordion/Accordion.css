@@ -65,5 +65,31 @@
 .accordion-container {
     margin-bottom: 20px;
     margin-left: 108px;
+    /* margin-right: none; */
     position: relative;
+}
+
+
+@media (max-width: 375px) {
+
+    .accordion {
+        width: 335px;
+        height: 29.93px;
+    }
+
+    .accordion__title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* STYLE ACCORDION PANEL */
+    .accordion__content {
+        width: 335px;
+    }
+
+    .accordion-container {
+        margin-left:-108px;
+    }
 }

@@ -14,23 +14,25 @@ function Home() {
         setLocations(data)
     })
 
-    return <div className="body">
-                <div className="background_title">
-                    <div className="title_img">
-                        <img src="../homebackgroundimg.png" alt="bgdimg"/>
-                        <h2 className="title_home">Chez vous, partout et ailleurs</h2>
-                    </div>
-                    <div className="bgd"></div>
+    return (
+        <div className="body">
+            <div className="background_title">
+                <div className="title_img">
+                    <img src="../homebackgroundimg.png" alt="bgdimg"/>
+                    <h2 className="title_home">Chez vous, partout et ailleurs</h2>
                 </div>
+                <div className="bgd"></div>
+            </div>
                 
             
-                <div className="background">
-                    <div className="location-card-info">
-                        {locations.map((location) => <LocationCard key={location.id} location={location}/>)}
-                    </div>
+            <div className="background">
+                <div className="location-card-info">
+                    {locations.map((location) => <LocationCard key={location.id} location={location}/>)}
                 </div>
+            </div>
                 
-          </div>;
+          </div>
+    );
 }
 
 export default Home;
