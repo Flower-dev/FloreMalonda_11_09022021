@@ -106,17 +106,19 @@
     /* BACKGROUND LOCATIONCARD - HOME PAGE */
     .background {
         /* height: 2848px; */
-        width: 380px;
+        width: 100%;
         left: 0%;
         right: 0%;
         top: 0%;
         bottom: 0%;
-        background: red;
+        background: none;
         border-radius: 25px;
+        margin-left: -20px;
     }
 
     .location-card-info {
         display: flex;
         flex-direction: column;
+        margin-left: -27px;
     }
 } 

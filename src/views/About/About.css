@@ -42,5 +42,6 @@
 
     .body {
         width: 380px;
+        margin-left: -80px;
     }
 }
