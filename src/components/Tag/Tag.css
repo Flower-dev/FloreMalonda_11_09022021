@@ -18,3 +18,18 @@
 .tag-content {
     margin-top: 5px;
 }
+
+@media (max-width: 375px) {
+    .tag {
+        width: 84px;
+        height: 18px; 
+        text-align: center;
+        align-items: center;
+        font-size: 10px;
+        line-height: 8px;
+    }
+
+    /* .tag-content {
+        margin-top: 1.5px;
+    } */
+}
