@@ -42,22 +42,26 @@ function LocationPage() {
                 <Slideshow img={location.pictures}/>
             </div>
 
-            <div className="location_header">
-                <div>
-                    <h2 className="title_locationpage">{location.title}</h2>
-                    <p className="subtitle_locationpage">{location.location}</p>
+            <div className="presentation">
+                <div className="location_header">
+                    <div>
+                        <h2 className="title_locationpage">{location.title}</h2>
+                        <p className="subtitle_locationpage">{location.location}</p>
+                    </div>
+                
+                    <div className="main-container-tag">
+                        {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
+                    </div>
                 </div>
-                <div>
-                    <Avatar name={location.host.name} picture={location.host.picture}/>
-                </div>
-            </div>
 
-            <div className="location_subheader">
-                <div className="main-container-tag">
-                    {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
-                </div>
-                <div className="main-container-stars">
-                    <Stars>{location.rating}</Stars>
+                <div className="location_subheader">
+                    <div>
+                        <Avatar name={location.host.name} picture={location.host.picture}/> 
+                    </div>
+
+                    <div className="main-container-stars">
+                        <Stars>{location.rating}</Stars>
+                    </div>
                 </div>
             </div>
 
