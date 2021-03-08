@@ -40,6 +40,11 @@
     margin-left: 15px;
 }
 
+.main-container-stars {
+    display: flex;
+    flex-direction: row;
+}
+
 .main-container-accordion {
     display: flex;
     flex-direction: row; 

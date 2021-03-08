@@ -17,7 +17,7 @@ import Stars from '../../components/Stars/Stars';
 // ----------------------------------------------------
 
 function LocationPage() {
-    const [location, setLocation] = useState({tags:[], equipments:[], pictures:[], host:{'name':'', 'picture':''}});
+    const [location, setLocation] = useState({tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}});
 
     let { id } = useParams();
     
@@ -60,7 +60,7 @@ function LocationPage() {
                     </div>
 
                     <div className="main-container-stars">
-                        <Stars>{location.rating}</Stars>
+                        {/* {location.rating.map((rating) => <Stars content={rating} key={rating}/>)}     */}
                     </div>
                 </div>
             </div>
