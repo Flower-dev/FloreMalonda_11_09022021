@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .location_header {
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-left: 108px;
+    margin-left: 15px;
 }
 
 .main-container-accordion {
@@ -86,6 +87,19 @@
 @media (max-width: 375px) {
 /* TITLE PAGE - LOCATION NAME*/
 
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: -20px;
+    }
+
+    .location_subheader {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .location_header {
         display: flex;
         flex-direction: column;
@@ -94,14 +108,24 @@
 
     .title_locationpage {
         font-size: 18px;
-        margin-left: 20px;
+        line-height: 142.6%;
+        margin-left: -10px;
+        margin-bottom: 30px;
     }
 
     .subtitle_locationpage {
         font-size: 14px;
-        margin-left: 20px;
+        margin-left: -10px;
     }
-    
+
+    .main-container-tag {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+        /* margin-left: -20px; */
+    }
+ 
     .main-container-accordion {
         display: flex;
         flex-direction: row;
