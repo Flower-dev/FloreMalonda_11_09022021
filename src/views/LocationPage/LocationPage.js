@@ -20,7 +20,7 @@ function LocationPage() {
     const [location, setLocation] = useState({tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}});
 
     let { id } = useParams();
-    
+
     useEffect (function (){
         fetch('/locations.json')
         .then((response) => {
@@ -35,7 +35,7 @@ function LocationPage() {
         })
     },[location]);
 
-    
+
     return (
         <div className="body_location_page">
             <div className="slideshow_location">
@@ -48,7 +48,7 @@ function LocationPage() {
                         <h2 className="title_locationpage">{location.title}</h2>
                         <p className="subtitle_locationpage">{location.location}</p>
                     </div>
-                
+
                     <div className="main-container-tag">
                         {location.tags.map((tag) => <Tag content={tag} key={tag}/>)}
                     </div>
@@ -56,11 +56,11 @@ function LocationPage() {
 
                 <div className="location_subheader">
                     <div>
-                        <Avatar name={location.host.name} picture={location.host.picture}/> 
+                        <Avatar name={location.host.name} picture={location.host.picture}/>
                     </div>
 
                     <div className="main-container-stars">
-                        {/* {location.rating.map((rating) => <Stars content={rating} key={rating}/>)}     */}
+                        <Stars rating={location.rating} key={location.id}/>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ function LocationPage() {
 
                 </div>
             </div>
-            
+
         </div>
     );
 }
