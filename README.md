@@ -22,13 +22,5 @@ L'application est disponible en cliquant sur le lien suivant : https://flower-de
 
 **TO DO LIST :** 
 - *A terminer :*
-
-- la Home page (
-    - caroussel des pages de location (en cours)
-    - ajouter les stars (en cours)
-)
 - modifier le chevron des accordéons
-
-- *A faire :*
-
-- gerer la partie responsive de l'application
+- gerer la partie responsive de l'application : correction des bugs d'affichage
