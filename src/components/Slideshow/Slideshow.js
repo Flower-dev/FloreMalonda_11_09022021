@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import ChevronSlideshow from './ChevronSlideshow.js';
 import './Slideshow.css'
 
 function Slideshow(props){
@@ -32,16 +31,13 @@ function Slideshow(props){
     return (
         <div className="slideshow">
             <div className="slideshow-container" style={{transform: `translateX(-${slideIdx * imgSize()}px)`}}>
-            {props.img.map((picture) => < img src={picture} key={picture}/>)}
+            {props.img.map((picture) => < img className='slideshow-container-img' src={picture} key={picture}/>)}
             </div>
             <div className={'slideshow-controls'}>
                 <img src="../chevron-left.png" className={'chevron'} onClick={onPrev}/>
                 <img src="../chevron-right.png" className={'chevron'} onClick={onNext}/>
             </div>
             <div className={'slideshow-idx'}>{slideIdx + 1} / {props.img.length}</div>
-            {/* <div className="chevronslideshow-container">
-                <ChevronSlideshow/>
-            </div> */}
         </div>
     );
 }
