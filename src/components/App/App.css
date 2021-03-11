@@ -1,5 +1,6 @@
 /* GENERAL */
 .navbar {
+    width: 1440px;
     margin-top: 54px;
     display: flex;
     flex-direction: row;
@@ -133,8 +134,6 @@
         margin-left: 50px;
         margin-right: -10px;
     }
-
-
 
     .nomatch h1 {
         /* 404 */

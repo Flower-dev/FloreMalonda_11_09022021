@@ -90,7 +90,7 @@
 
 
 @media (max-width: 375px) {
-/* TITLE PAGE - LOCATION NAME*/
+
 
     .presentation {
         display: flex;
@@ -128,7 +128,7 @@
         flex-direction: row;
         justify-content: left;
         flex-wrap: wrap;
-        /* margin-left: -20px; */
+    
     }
  
     .main-container-accordion {

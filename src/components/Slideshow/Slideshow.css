@@ -1,7 +1,7 @@
 .slideshow {
     overflow: hidden;
-    width: 1260px;
-    /* margin: auto; */
+    width: 80%;
+    margin: auto;
     position: relative;
 }
 
@@ -19,7 +19,7 @@
     top: 50%;
     transform: translateY(-50%);
     display: flex;
-    width: calc(1260px - 20px);
+    width: calc(80% - 20px);
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
