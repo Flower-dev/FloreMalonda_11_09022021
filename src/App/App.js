@@ -7,12 +7,11 @@ import {
   Link,
 } from "react-router-dom";
 
-// VIEWS
+// VIEWS -------------------------------------------
 
 import Home from '../views/Home/Home'
 import About from '../views/About/About'
 import LocationPage from '../views/LocationPage/LocationPage'
-
 
 // -------------------------------------------
 

@@ -5,8 +5,9 @@ import {
     Link,
 } from "react-router-dom";
 
+// -------------------------------------------
 
-function LocationCard(props) {
+export default function LocationCard(props) {
     return (
         <>
             <div>
@@ -21,5 +22,5 @@ function LocationCard(props) {
     )
 }
 
-export default LocationCard;
+
   

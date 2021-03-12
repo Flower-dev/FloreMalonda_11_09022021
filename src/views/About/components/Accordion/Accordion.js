@@ -6,7 +6,7 @@ import "./Accordion.css";
 
 // --------------------------------------------------------------
 
-function Accordion(props) {
+export default function Accordion(props) {
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
   const [setRotate, setRotateState] = useState("accordion__icon");
@@ -40,4 +40,3 @@ function Accordion(props) {
   );
 }
 
-export default Accordion;

@@ -5,8 +5,11 @@ import './index.css';
 import App from './App/App';
 import reportWebVitals from './reportWebVitals';
 
-// Footer importation
+// FOOTER -------------------------------------------
+
 import Footer from './components/Footer/Footer';
+
+// -------------------------------------------
 
 const routing = (
   <Router>
