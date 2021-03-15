@@ -2,7 +2,7 @@
 
 .body {
     position: absolute;
-    width: 1240px;
+    width: 100%;
     height: 1095px;
     /* left: 100px; */
     top: 171px;
@@ -16,14 +16,14 @@
 
 .about_img {
     /* position: absolute; */
-    width: 1278px;
+    width: 100%;
     height: 1933px;
     left: 100px;
     top: -573px;
 }
  
 .background_about {
-    width: 1240px;
+    width: 100%;
     height: 223px;
     left: 100px; 
     top: 171px;

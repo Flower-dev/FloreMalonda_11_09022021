@@ -50,11 +50,12 @@
 /* BACKGROUND LOCATIONCARD - HOME PAGE */
 .background {
     height: 2848px;
-    width: 1240px;
-    left: 0%;
+    width: 90%;
+    margin: auto;
+    /* left: 0%;
     right: 0%;
     top: 0%;
-    bottom: 0%;
+    bottom: 0%; */
     background: #F7F7F7;
     border-radius: 25px;
 }
