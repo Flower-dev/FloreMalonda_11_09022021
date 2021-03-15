@@ -4,7 +4,7 @@
     position: absolute;
     width: 1240px;
     height: 1095px;
-    left: 100px;
+    /* left: 100px; */
     top: 171px;
 }
 
@@ -23,8 +23,6 @@
 }
  
 .background_about {
-    /* Background */
-    /* position: relative; */
     width: 1240px;
     height: 223px;
     left: 100px; 
@@ -42,6 +40,6 @@
 
     .body {
         width: 375px;
-        margin-left: -80px;
+        /* margin-left: -80px; */
     }
 }

@@ -1,6 +1,8 @@
 import React from "react";
 
-function ChevronLocation(props) {
+// -------------------------------------------
+
+export default function Chevron(props) {
   return (
     <svg
       className={props.className}
@@ -16,5 +18,3 @@ function ChevronLocation(props) {
     </svg>
   );
 }
-
-export default ChevronLocation;

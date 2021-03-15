@@ -1,7 +1,9 @@
 import React from 'react';
 import './Avatar.css';
 
-function Avatar(props){
+// -------------------------------------------
+
+export default function Avatar(props){
     return (
         <div className="avatar-container">
             <div className="avatar-name">
@@ -15,5 +17,3 @@ function Avatar(props){
     );
     
 };
-
-export default Avatar;

@@ -2,18 +2,12 @@ import React from 'react';
 import './LocationCard.css';
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link,
-    useRouteMatch,
-  } from "react-router-dom";
+} from "react-router-dom";
 
-// VIEWS
+// -------------------------------------------
 
-import LocationPage from '../../views/LocationPage/LocationPage';
-
-
-function LocationCard(props) {
+export default function LocationCard(props) {
     return (
         <>
             <div>
@@ -24,17 +18,9 @@ function LocationCard(props) {
                     </div>
                  </Link>
             </div>
-            
-            {/* <Switch>
-                <Route exact path={"/locations/"+props.location.id}>
-                    <LocationPage/>
-                </Route>
-            </Switch>   */}
         </> 
-    
     )
-
 }
 
-export default LocationCard;
+
   

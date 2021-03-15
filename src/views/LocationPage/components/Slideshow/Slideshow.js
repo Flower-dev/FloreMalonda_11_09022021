@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import './Slideshow.css'
 
-function Slideshow(props){
+// -------------------------------------------
+
+export default function Slideshow(props){
 
     const [slideIdx, setSlideIdx] = useState(0);
     const imgSize = () => {
@@ -41,5 +43,3 @@ function Slideshow(props){
         </div>
     );
 }
-
-export default Slideshow;

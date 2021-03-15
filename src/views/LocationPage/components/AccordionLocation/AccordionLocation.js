@@ -6,7 +6,7 @@ import "./AccordionLocation.css";
 
 // --------------------------------------------------------------
 
-function AccordionLocation(props) {
+export default function AccordionLocation(props) {
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
   const [setRotate, setRotateState] = useState("accordionlocation__icon");
@@ -39,5 +39,3 @@ function AccordionLocation(props) {
     </div>
   );
 }
-
-export default AccordionLocation;

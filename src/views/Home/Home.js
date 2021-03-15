@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
-import LocationCard from '../../components/LocationCard/LocationCard';
+import LocationCard from './components/LocationCard/LocationCard';
 import './Home.css'
 
-function Home() {
+// -------------------------------------------
+
+export default function Home() {
     const [locations, setLocations] = useState([]);
 
     fetch('/locations.json')
@@ -31,9 +33,8 @@ function Home() {
                 </div>
             </div>
                 
-          </div>
+        </div>
     );
 }
 
-export default Home;
   
