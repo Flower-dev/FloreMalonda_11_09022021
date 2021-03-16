@@ -52,10 +52,6 @@
     height: 2848px;
     width: 90%;
     margin: auto;
-    /* left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%; */
     background: #F7F7F7;
     border-radius: 25px;
 }
@@ -63,6 +59,7 @@
 .location-card-info {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 
