@@ -1,25 +1,27 @@
 .location-card {
-    width: 425px;
-    height: 425px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: flex-end;
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-top: 48px;
-    margin-left: 48px;
+    margin-top: 60px;
+    margin-left: 60px;
     border-radius: 10px;
 } 
 
 .location-title {
     margin-top: auto;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     position: relative;
     z-index: 2;
     color: white;
     height: 52px;
-    width: 200px;
+    width: 250px;
     Left: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
 
 }
 

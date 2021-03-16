@@ -17,7 +17,7 @@ export default function Home() {
     })
 
     return (
-        <div className="body">
+        <div className="body-home">
             <div className="background_title">
                 <div className="title_img">
                     <img src="../homebackgroundimg.png" alt="bgdimg"/>

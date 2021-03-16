@@ -10,11 +10,12 @@ import './About.css';
 function About() {
   
     return (
-    <div className="body">
+    <div className="body-about">
         <div className="background_title">
             <div className="title_img">
                 <img src="../aboutbackgroundimage.png" alt="bgdimg"/>
             </div>
+            <div className="bgd"></div>
         </div>
 
         <div className="container">

@@ -3,7 +3,7 @@ position: relative;
 width: 100%;
 height: 220px;
 background: #000000; 
-Top: 3333px;
+Top: 150px;
 }
 
 .footer img {
@@ -28,7 +28,7 @@ color: #FFFFFF;
     .footer {
         width: 375px;
         height: 209px;
-        Top: 6250px;
+        Top: 6500px;
     }  
 
     .footer img {
