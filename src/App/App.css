@@ -140,14 +140,15 @@
     .nomatch h1 {
         /* 404 */
         font-size: 96px;
-        margin-left: 30%;
+        margin-left: 27%;
         text-align: center;
     }
 
     .nomatch p {
         /* Oups! La page que vous demandez n'existe pas. */
         font-size: 18px;
-        margin-left: 14.5%;
+        margin-left: 14%;
+        margin-right: 14%;
     }
 
     .backhome {
