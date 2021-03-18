@@ -117,7 +117,13 @@
 @media (max-width: 375px) {
 
     .navbar {
-       align-items: center;
+        margin-top: 54px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .nav img {
@@ -126,9 +132,17 @@
         position: absolute;
         top: 20px;
     }
-    /* .navli {
-        margin: auto;
-    } */
+    
+    .navli {
+        margin-right: 70px;
+        text-align: right;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 142.6%;
+        /* or 34px */
+    }
 
     .list-menu {
         top: 20px;
