@@ -56,43 +56,30 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 288px;
     line-height: 142.6%;
-    /* or 411px */
-
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #FF6060;
     margin-left: 35%;
 }
 
 .nomatch p {
     /* Oups! La page que vous demandez n'existe pas. */
-
-    /* left: 20.49%;
-    right: 18.96%;
-    top: 59.18%;
-    bottom: 35.84%; */
  
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 142.6%;
-    /* or 51px */
-
     display: flex;
     align-items: flex-end;
     text-align: center;
-
     color: #FF6060;
-
     margin-left: 30%;
     margin-top: 50px;
 }
@@ -103,7 +90,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 142.6%;
-    /* identical to box height, or 26px */
     display: flex;
     align-items: flex-end;
     text-decoration-line: underline;
@@ -124,24 +110,25 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: nowrap;
     }
 
     .nav img {
-        width: 125px;
-        margin-left: 20px;
+        width: 98px;
+        margin-left: 5px;
         position: absolute;
         top: 20px;
     }
     
     .navli {
-        margin-right: 70px;
+        margin-right: 20px;
         text-align: right;
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 142.6%;
-        /* or 34px */
+        margin-top: -25px;
     }
 
     .list-menu {
