@@ -8,7 +8,7 @@
     z-index: -1;
     object-fit: cover;
     border-radius: 25px;
-    width: 100%;
+    width: 142%;
 }
  
 .background_title {
@@ -35,7 +35,7 @@
     font-weight: normal;
     font-size: 48px;
     line-height: 142.6%;
-    left: 40%;
+    left: 45%;
     top: 50%;
     color: #FFFFFF; 
     transform: translate(-50%, -50%);
@@ -48,8 +48,6 @@
     position: absolute;
     width: 90%;
     height: 100%;
-    /* left: 0;
-    top: 0; */
     margin: auto;
     background: rgba(0,0,0,.5);
     z-index: 2;
@@ -68,7 +66,6 @@
 .location-card-info {
     display: flex;
     flex-wrap: wrap;
-    /* margin: auto; */
 }
 
 
