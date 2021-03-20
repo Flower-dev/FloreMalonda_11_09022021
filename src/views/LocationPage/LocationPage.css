@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-right: 100px;
+    margin-left: 5%;
 }
 
 .location_subheader {
@@ -29,15 +29,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center; 
-    margin-right: 100px;
+    margin-right: 10%;
     margin-bottom: 10px;
 }
 
 .main-container-tag {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    margin-left: 15px;
+    /* justify-content: left;
+    margin-left: 15px; */
 }
 
 .main-container-stars {
@@ -47,8 +47,11 @@
 
 .main-container-accordion {
     display: flex;
+    margin-top: 10px;
     flex-direction: row; 
-    margin-right: 108px;
+    justify-content: space-around;
+    margin-left: -6%;
+
 }
 
 .accordion-container {
