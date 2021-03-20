@@ -19,7 +19,7 @@
     top: 50%;
     transform: translateY(-50%);
     display: flex;
-    width: calc(80% - 20px);
+    width: calc(100% - 30px);
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
