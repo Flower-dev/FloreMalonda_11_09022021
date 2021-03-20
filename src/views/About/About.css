@@ -48,7 +48,18 @@
 
 @media (max-width: 375px) {
 
-    /* .body {
-        width: 375px;
-    } */
+    .background_title {
+        width: 90%;
+        /* height: 223px; */
+        margin-bottom: 48px;
+        mix-blend-mode: darken;
+        opacity: 0.5;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        margin-left: -5px;
+    
+    }
 }

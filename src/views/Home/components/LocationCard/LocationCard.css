@@ -45,6 +45,20 @@
         width: 335px;
         height: 250px;
     }
+
+    .location-title {
+        margin-top: auto;
+        margin-bottom: 5px;
+        position: relative;
+        z-index: 2;
+        color: white;
+        height: 52px;
+        width: 250px;
+        Left: 20px;
+        font-family: Montserrat, sans-serif;
+        font-size: 14px;
+    
+    }
 } 
 
 
