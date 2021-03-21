@@ -100,12 +100,15 @@
         flex-direction: column;
         align-items: center;
         /* justify-content: space-between; */
-        margin-left: -20px;
+        margin-left: 6%;
+        width: 85%;
     }
 
     .location_subheader {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
+        /* margin-left: 22%; */
     }
 
     .location_header {
@@ -131,15 +134,19 @@
         flex-direction: row;
         justify-content: left;
         flex-wrap: wrap;
-    
     }
- 
+
     .main-container-accordion {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap; 
-        margin-right: 20px;
-        margin-left: 20px;
+        /* margin-right: 20px;
+        margin-left: 20px; */
+    }
+
+    .accordion-container-left {
+        margin-left: 15%;
+        margin-bottom: 5%;
     }
 }
 
