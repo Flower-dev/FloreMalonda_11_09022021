@@ -20,17 +20,3 @@ L'application est disponible en cliquant sur le lien suivant : https://flower-de
 - footer
 
 
-**TO DO LIST :** 
-
-- *A terminer :*
-- gerer la partie responsive de l'application : correction des bugs d'affichage
-- modifier la page home de la partie mobile
-- image en header (mobile et desktop)
-- revoir la page location complétement (desktop + mobile)
-
-
-**CE QUI EST OK :**
-- affichage de la navbar (desktop + mobile)
-- affichage de la page about (desktop + mobile)
-- footer (desktop + mobile)
-
