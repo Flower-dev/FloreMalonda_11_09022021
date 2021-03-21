@@ -50,12 +50,13 @@
     margin-top: 10px;
     flex-direction: row; 
     justify-content: space-around;
-    margin-left: -6%;
+    margin-left: 3.5%;
+    width: 80%;
 
 }
 
-.accordion-container {
-    margin-right: -38px;
+.accordion-container-right {
+    margin-right: -16%;
 }
 
 /* TITLE PAGE - LOCATION NAME*/

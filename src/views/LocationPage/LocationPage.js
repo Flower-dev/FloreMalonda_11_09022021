@@ -66,13 +66,13 @@ export default function LocationPage() {
             </div>
 
             <div className="main-container-accordion">
-                <div className="accordion-container">
+                <div className="accordion-container-left">
                     <AccordionLocation
                         title="Description"
                         content={location.description}
                     />
                 </div>
-                <div className="accordion-container">
+                <div className="accordion-container-right">
                     <AccordionLocation
                         title="Equipement"
                         content={

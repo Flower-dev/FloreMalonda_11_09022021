@@ -6,7 +6,7 @@
   
 /* STYLE BUTTON */
 .accordionlocation {
-    width: 582px;
+    width: 750px;
     height: 52px;
     border-radius: 10px;
     background-color: #FF6060;
@@ -24,7 +24,7 @@
 .accordionlocation__title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
 }
 
@@ -45,7 +45,7 @@
     overflow: auto;
     transition: max-height 0.6s ease;
     height: 249px;
-    width: 582px;
+    width: 750px;
     left: 0px;
     top: 38px;
     border-radius: 10px;
@@ -56,7 +56,7 @@
     color: #FF6060;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     padding: 18px;
 }
 
@@ -78,6 +78,14 @@
     /* STYLE ACCORDION PANEL */
     .accordionlocation__content {
         width: 335px;
+    }
+
+    .accordionlocation__text {
+        color: #FF6060;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 18px;
     }
 }
 
