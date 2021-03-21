@@ -10,6 +10,7 @@ import Tag from './components/Tag/Tag';
 import Slideshow from './components/Slideshow/Slideshow';
 import Stars from './components/Stars/Stars';
 
+
 // -------- IMPORT STYLE -----------------
 
 import './LocationPage.css';

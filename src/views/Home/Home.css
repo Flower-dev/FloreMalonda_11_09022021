@@ -46,7 +46,7 @@
 
 .bgd {
     position: absolute;
-    width: 90%;
+    /* width: 90%; */
     height: 100%;
     margin: auto;
     background: rgba(0,0,0,.5);
@@ -81,16 +81,18 @@
     .background_title {
         width: 335px;
         height: 111px;
-        margin-bottom: 10px;
-        margin-left: -5px;
+        margin-bottom: -20%;
+        margin-left: 5%;
     }
 
     .title_home {
-        right: 32.53%;
-        top: 14.04%;
+        right: 50%;
+        left: 50%;
+        top: 25%;
         bottom: 80.05%;
         font-size: 24px;
         line-height: 100%;
+        text-align: center;
     }
 
     .bgd {
