@@ -62,11 +62,11 @@
     }
 
     .title_home {
-        right: 50%;
-        left: 50%;
+        right: 60%;
+        /* left: 60%; */
         top: 25%;
         bottom: 80.05%;
-        font-size: 22px;
+        font-size: 21px;
         line-height: 100%;
         text-align: center;
     }
