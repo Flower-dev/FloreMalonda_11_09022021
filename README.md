@@ -11,12 +11,3 @@ L'application est disponible en cliquant sur le lien suivant : https://flower-de
 - apprendre React Router
 - travailler avec une DB
 
-
-**LISTES DES COMPOSANTS REALISÉS :**
-- cartes des locations
-- tag 
-- accordéon
-- caroussel
-- footer
-
-

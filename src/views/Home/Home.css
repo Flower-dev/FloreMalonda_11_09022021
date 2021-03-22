@@ -2,30 +2,6 @@
     margin-top: 70px;
 }
 
-/* STYLE - IMG HEADER HOME PAGE */
-.title_img img {
-    /* position: relative;  */
-    z-index: -1;
-    object-fit: cover;
-    border-radius: 25px;
-    width: 142%;
-}
- 
-.background_title {
-    width: 90%;
-    /* height: 223px; */
-    margin-bottom: 48px;
-    mix-blend-mode: darken;
-    opacity: 0.6;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    margin-left: 195px;
-
-}
-
 .title_home {
     /* Chez vous, partout et ailleurs */
     position: absolute;
@@ -90,7 +66,7 @@
         left: 50%;
         top: 25%;
         bottom: 80.05%;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 100%;
         text-align: center;
     }
