@@ -1,8 +1,8 @@
 .tag { 
     background: #FF6060;
     border-radius: 10px;
-    width: 115px;
-    height: 25px;
+    width: 120px;
+    height: 30px;
     text-align: center;
     align-items: center;
     color: #FFFFFF;
@@ -16,7 +16,8 @@
 }
 
 .tag-content {
-    margin-top: 5px;
+    margin-top: 6px;
+    font-size: 12px;
 }
 
 @media (max-width: 375px) {

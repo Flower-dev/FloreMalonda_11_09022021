@@ -1,13 +1,13 @@
 .location-card {
-    width: 500px;
-    height: 500px;
+    width: 340px;
+    height: 340px;
     display: flex;
     align-items: flex-end;
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 35px;
+    margin-left: 35px;
     border-radius: 10px;
 } 
 
@@ -21,7 +21,7 @@
     width: 250px;
     Left: 20px;
     font-family: Montserrat, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 
 }
 
@@ -44,6 +44,7 @@
     .location-card {
         width: 335px;
         height: 250px;
+        margin-left: 15%;
     }
 
     .location-title {
