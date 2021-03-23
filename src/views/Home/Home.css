@@ -13,7 +13,7 @@
     line-height: 142.6%;
     left: 45%;
     top: 50%;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     transform: translate(-50%, -50%);
     width: 100%;
     margin: 0;
@@ -32,9 +32,8 @@
 
 /* BACKGROUND LOCATIONCARD - HOME PAGE */
 .background {
-    height: 2670px;
     width: 81%;
-    margin: auto;
+    margin: 20px auto;
     background: #F7F7F7;
     border-radius: 25px;
 }
@@ -53,7 +52,7 @@
         width: 335px;
         height: 111px;
     }
-    
+
     .background_title {
         width: 335px;
         height: 111px;
@@ -97,4 +96,4 @@
         flex-direction: column;
         margin-left: -20px;
     }
-} 
+}

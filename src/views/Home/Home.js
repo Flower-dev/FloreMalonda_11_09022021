@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import {useState, useEffect} from 'react';
 import LocationCard from './components/LocationCard/LocationCard';
 import './Home.css'
 
@@ -8,13 +8,16 @@ import './Home.css'
 export default function Home() {
     const [locations, setLocations] = useState([]);
 
-    fetch('/locations.json')
-    .then((response) => {
-        return response.json()
-    })
-    .then((data) => {
-        setLocations(data)
-    })
+    useEffect(() => {
+        fetch('/locations.json')
+            .then((response) => {
+                return response.json()
+            })
+            .then((data) => {
+                setLocations(data)
+            })
+    }, [])
+
 
     return (
         <div className="body-home">
@@ -25,16 +28,15 @@ export default function Home() {
                 </div>
                 <div className="bgd"></div>
             </div>
-                
-            
+
+
             <div className="background">
                 <div className="location-card-info">
                     {locations.map((location) => <LocationCard key={location.id} location={location}/>)}
                 </div>
             </div>
-                
+
         </div>
     );
 }
 
-  

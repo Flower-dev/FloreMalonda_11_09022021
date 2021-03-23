@@ -34,7 +34,7 @@ export default function AccordionLocation(props) {
         style={{ maxHeight: `${setHeight}`}}
         className="accordionlocation__content"
       >
-        <div><p className="accordionlocation__text">{props.content}</p></div>
+        <div><div className="accordionlocation__text">{props.content}</div></div>
       </div>
     </div>
   );

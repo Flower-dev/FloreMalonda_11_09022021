@@ -41,7 +41,7 @@ export default function LocationPage() {
                 }
             }
         })
-    },[location]);
+    },[]);
 
 
     return (
@@ -85,7 +85,7 @@ export default function LocationPage() {
                         title="Equipement"
                         content={
                             <ul>
-                                {location.equipments.map((equipment) => <li>{equipment}</li>)}
+                                {location.equipments.map((equipment) => <li key={equipment}>{equipment}</li>)}
                             </ul>
                         }
                     />

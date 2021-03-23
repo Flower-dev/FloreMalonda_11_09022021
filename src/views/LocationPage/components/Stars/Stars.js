@@ -15,8 +15,8 @@ export default function Stars(props) {
 
     return (
         <div className="stars">
-            {Array.from({length: parseInt(props.rating)}, () => <ColoredStar />)}
-            {Array.from({length: 5 - parseInt(props.rating)}, () => <EmptyStar />)}
+            {Array.from({length: parseInt(props.rating)}, (v, idx) => <ColoredStar key={'colored-' + idx}/>)}
+            {Array.from({length: 5 - parseInt(props.rating)}, (v, idx) => <EmptyStar key={'empty-' + idx}/>)}
         </div>
     )
 };
