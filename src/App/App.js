@@ -12,6 +12,7 @@ import {
 import Home from '../views/Home/Home'
 import About from '../views/About/About'
 import LocationPage from '../views/LocationPage/LocationPage'
+import NoMatch from '../components/NoMatch/NoMatch'
 
 // -------------------------------------------
 
@@ -44,15 +45,7 @@ export default function App() {
         <Route path="/locations/:id">
           <LocationPage />
         </Route>
-        <Route 
-        render={() => 
-          <div className="nomatch">
-            <h1>404</h1>
-            <p>Oups! La page que vous demandez n'existe pas.</p>
-            <Link className="backhome" to="/">Retourner sur la page d'accueil</Link>
-          </div>
-        } 
-        />
+        <Route render={() => <NoMatch/>}/>
       </Switch>
     </Router>
   );
