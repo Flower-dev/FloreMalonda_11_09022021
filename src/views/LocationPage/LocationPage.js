@@ -10,14 +10,6 @@ import Tag from './components/Tag/Tag';
 import Slideshow from './components/Slideshow/Slideshow';
 import Stars from './components/Stars/Stars';
 
-// import {
-//     AccordionLocation,
-//     Avatar,
-//     Tag,
-//     Slideshow,
-//     Stars,
-// } from './components/index'
-
 // -------- IMPORT STYLE -----------------
 
 import './LocationPage.css';
