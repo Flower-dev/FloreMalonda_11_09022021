@@ -36,13 +36,13 @@ export default function App() {
       </div>
 
       <Switch>
-        <Route path="/a_propos">
+        <Route exact path="/a_propos">
           <About />
         </Route>
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/locations/:id">
+        <Route exact path="/locations/:id">
           <LocationPage />
         </Route>
         <Route render={() => <NoMatch/>}/>
